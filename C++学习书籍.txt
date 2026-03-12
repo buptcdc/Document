@@ -1,0 +1,219 @@
+学习C++的经典书籍有哪些
+
+学习 C++ 的经典书籍其实已经比较固定了，很多程序员都会推荐同一批。我按 学习阶段（入门 → 进阶 → 高级） 给你整理一个最经典的书单。
+
+一、入门级（打基础）
+1️⃣ 《C++ Primer》（第5版）
+
+作者：Stanley B. Lippman
+
+特点：
+
+C++最经典的入门书之一
+
+系统讲解 语法 + STL + C++11
+
+适合从零开始或有其他语言基础的人
+
+优点：
+
+内容全面
+
+例子很多
+
+讲得很细
+
+缺点：
+
+很厚（接近1000页）
+
+2️⃣ 《Accelerated C++》
+
+作者：Andrew Koenig
+
+特点：
+
+比 Primer 短很多
+
+直接从 STL + 实践 开始
+
+适合有编程经验的人
+
+优点：
+
+学习效率高
+
+代码质量很好
+
+二、语言深入理解（非常经典）
+3️⃣ 《The C++ Programming Language》
+
+作者：Bjarne Stroustrup
+
+特点：
+
+C++之父写的书
+
+第一本系统介绍 C++ 的书
+
+覆盖语言设计、标准库、编程范式等内容
+
+适合：
+
+已经有基础的人
+
+想理解 C++ 语言思想
+
+很多程序员把这本书当：
+
+C++圣经
+
+4️⃣ 《A Tour of C++》
+
+也是 Stroustrup 写的
+
+特点：
+
+很薄
+
+快速介绍 现代C++（C++11/14/17）
+
+适合：
+
+想快速了解现代 C++ 特性的人
+
+三、C++编程经验（非常重要）
+5️⃣ 《Effective C++》
+
+作者：Scott Meyers
+
+特点：
+
+55条 C++ 编程经验
+
+讲解 C++ 使用技巧
+
+比如：
+
+构造函数
+
+RAII
+
+operator 重载
+
+资源管理
+
+很多人评价：
+
+写 C++ 必读
+
+6️⃣ 《Effective Modern C++》
+
+同一作者
+
+内容：
+
+C++11 / C++14 新特性
+
+auto
+
+move
+
+lambda
+
+smart pointer
+
+四、STL深入
+7️⃣ 《Effective STL》
+
+作者：Scott Meyers
+
+讲：
+
+STL 使用技巧
+
+iterator
+
+algorithm
+
+container
+
+8️⃣ 《The C++ Standard Library》
+
+作者：Nicolai Josuttis
+
+特点：
+
+STL 讲得最深入的一本书
+
+几乎是 STL 的百科全书
+
+五、高级C++（架构级）
+9️⃣ 《Modern C++ Design》
+
+作者：Andrei Alexandrescu
+
+内容：
+
+模板元编程
+
+policy-based design
+
+typelist
+
+这本书被认为是：
+
+最重要的 C++ 书籍之一
+
+🔟 《C++ Concurrency in Action》
+
+作者：Anthony Williams
+
+特点：
+
+C++ 多线程权威书
+
+std::thread
+
+mutex
+
+lock-free
+
+memory model
+
+你之前问的 race condition / stack例子
+就是来自这本书。
+
+六、软件设计（C++程序员必读）
+《Design Patterns》
+
+作者：Erich Gamma 等（GoF）
+
+内容：
+
+23种设计模式
+
+C++ 示例代码
+
+七、我给你的推荐阅读路线（非常经典）
+
+如果你是 做C++开发（系统 / 嵌入式 / 高性能）：
+
+第一阶段
+
+1️⃣ C++ Primer
+
+第二阶段
+
+2️⃣ Effective C++
+3️⃣ Effective Modern C++
+
+第三阶段
+
+4️⃣ The C++ Programming Language
+5️⃣ The C++ Standard Library
+
+第四阶段
+
+6️⃣ C++ Concurrency in Action
+7️⃣ Modern C++ Design
