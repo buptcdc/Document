@@ -1,0 +1,38 @@
+
+
+一个核心经验
+
+在 C++ 里：
+
+90% 内存泄漏来自“裸指针 + 容器”
+
+解决方法几乎总是：
+
+用 unique_ptr  有那些特征  
+
+用 shared_ptr + weak_ptr
+
+
+
+如果你愿意，我可以：
+
+给你一个真实的泄漏案例演示分析    
+
+讲讲 definitely lost / indirectly lost 区别
+
+讲讲为什么 Valgrind 会误报
+
+讲一下内存的slab  碎片整理  
+
+atomic和 mutex什么时候分别用哪个？
+
+
+原子操作有多慢？
+
+原子操作：
+
+会触发 CPU cache line 锁
+
+会导致内存屏障
+
+会影响多核缓存一致性协议（MESI）

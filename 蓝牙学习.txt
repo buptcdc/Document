@@ -1,0 +1,9 @@
+Linux（BlueZ）怎么映射到 Service / Characteristic  
+
+
+BLE 根本没有“我给你发一包”的概念   不是可以做到notify吗  为什么没有这个概念呢  
+
+773405445558044
+
+直接构造和拷贝构造有什么区别 
+
