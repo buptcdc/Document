@@ -1,0 +1,32 @@
+
+
+#0  worker4 () at test.cpp:75
+#1  0x00007ff66ffa355d in std::__invoke_impl<void, void (*)()> (
+    __f=@0x1e21de11f98: 0x7ff66ffa1825 <worker4()>)
+    at C:/workspace/software/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h:61
+#2  0x00007ff66ffa3645 in std::__invoke<void (*)()> (
+    __fn=@0x1e21de11f98: 0x7ff66ffa1825 <worker4()>)
+    at C:/workspace/software/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h:96
+#3  0x00007ff66ffa3378 in std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ull> (
+    this=0x1e21de11f98)
+    at C:/workspace/software/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h:292
+#4  0x00007ff66ffa33d8 in std::thread::_Invoker<std::tuple<void (*)()> >::operator() (
+    this=0x1e21de11f98)
+    at C:/workspace/software/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h:299
+#5  0x00007ff66ffa31fc in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run (this=0x1e21de11f90)
+    at C:/workspace/software/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h:244
+#6  0x00007ff84806fc7f in libstdc++-6!atomic_flag_test_and_set_explicit ()
+   from C:\workspace\program_test\libstdc++-6.dll
+#7  0x00007ff8ce374b4b in pthread_create_wrapper ()
+   from C:\workspace\program_test\libwinpthread-1.dll
+#8  0x00007ff8e8bdf0ad in msvcrt!_beginthreadex () from C:\WINDOWS\System32\msvcrt.dll
+#9  0x00007ff8e8bdf17c in msvcrt!_endthreadex () from C:\WINDOWS\System32\msvcrt.dll
+#10 0x00007ff8e9e8e8d7 in KERNEL32!BaseThreadInitThunk () from C:\WINDOWS\System32\kernel32.dll
+#11 0x00007ff8ea02c53c in ntdll!RtlUserThreadStart () from C:\WINDOWS\SYSTEM32\ntdll.dll
+#12 0x0000000000000000 in ?? ()
+
+为什么只有一个线程在跑
+
+
+
+
